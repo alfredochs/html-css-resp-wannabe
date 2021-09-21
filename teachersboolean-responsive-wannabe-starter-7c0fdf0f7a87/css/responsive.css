@@ -49,13 +49,22 @@
         width: 100%;
     }
     /* *************************** */
-
-
-
-
-
-
-
-
+    #why .row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #F2F2CD;
+        margin-top: 0;
+        font-size: 12px;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+    margin-top: 0;
+}
+    #why .row  img{
+        height: 100px;
+        padding: 25px;
+    }
 
 }
